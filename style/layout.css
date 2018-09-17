@@ -1,0 +1,92 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.text-input {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 30px;
+}
+
+label {
+  display: block;
+  padding: 5px;
+}
+
+input {
+  padding: 10px;
+}
+
+.text1 .text2 {
+  padding: 50px;
+  width: 80%;
+}
+
+#title, #text-input-validation-err, #select-box, #select-box-open {
+  width: 90%;
+}
+
+.select-box {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 30px;
+}
+
+.selectbox1 .selectbox2 {
+  padding :50px;
+}
+
+.checkbox {
+  margin: 50px 30px;
+}
+
+input[type=checkbox], input[type=radio] {
+  /* width: 30px; 
+  height: 30px;  */
+  -webkit-appearance: none;
+}
+
+.check-box1 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -158px -239px;
+  width: 161px;
+  height: 160px;
+}
+
+.check-box2 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -381px -239px;
+  width: 161px;
+  height: 160px;
+}
+
+.radio-buttons {
+  margin: 50px 30px;
+}
+
+input[type="radio"]{
+  width: 30px; 
+  height: 30px; 
+}
+
+//fix this
+input[type=checkbox]:checked + label {
+  display: toggle;
+} 
+
+#radio-button1 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+#radio-button2 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
+
+
+
+.submit-buttons {
+  margin: 50px 30px;
+}
