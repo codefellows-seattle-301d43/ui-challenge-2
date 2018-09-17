@@ -6,15 +6,16 @@ h1 {
 .text-input {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 50px 30px;
 }
 
 label {
   display: block;
+  padding: 5px;
 }
 
 input {
-  padding: 5px;
+  padding: 10px;
 }
 
 .text1 .text2 {
@@ -29,7 +30,7 @@ input {
 .select-box {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 50px 30px;
 }
 
 .selectbox1 .selectbox2 {
@@ -37,7 +38,7 @@ input {
 }
 
 .checkbox {
-  margin: 20px;
+  margin: 50px 30px;
 }
 
 input[type="checkbox"]{
@@ -46,7 +47,7 @@ input[type="checkbox"]{
 }
 
 .radio-buttons {
-  margin: 20px;
+  margin: 50px 30px;
 }
 
 input[type="radio"]{
@@ -56,5 +57,5 @@ input[type="radio"]{
 
 
 .submit-buttons {
-  margin: 20px;
+  margin: 50px 30px;
 }
