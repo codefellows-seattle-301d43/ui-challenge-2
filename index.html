@@ -4,33 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>UI Challenge 2</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/layout.css">
+    <link rel="stylesheet" href="style/modules.css">
+    <link rel="stylesheet" href="style/normalize.css">
 </head>
 <body>
-  
-  <section id="write" class="tab-content">
-    <h1>Create New Article</h1>
+  <header>
+    <h1>UI Challenge - Custom Form Elements</h1>
+  </header>
+
+  <section>
+    
     <form>
-      <label for="title">Title: </label>
-      <input type="text" id="title" name="title"/>
-      <label for="body">Body: </label>
-      <textarea id="body" name="body"></textarea>
-      <label for="author">Author: </label>
-      <input type="text" id="author" name="author" />
-      <label for="author-url">Author URL: </label>
-      <input type="text" id="authorUrl" name="authorUrl" />
-      <label for="category">Category: </label>
-      <input type="text" id="category" name="category" />
-      <label for="published">Published: </label>
-      <input type="checkbox" id="published" name="published">
+      <div class="text-input">
+        <div class="text1">
+          <label for="text-input">text input</label>
+          <input type="text" id="title" name="title"/>
+        </div>
+        
+        <div class="text2">
+          <label for="text-input-validation-err">text input w&sol; validation error</label>
+          <input type="text" id="text-input-validation-err"/>
+        </div>
+      </div>
+
+      <div class="select-box">
+        <div class="selectbox1">
+          <label for="select-box">select box </label>
+          <input type="text" id="select-box"/>
+        </div>
+
+        <div class="selectbox2">
+          <label for="select-box-open">select box - open</label>
+            <select id="select-box-open">
+              <option value="option1">option 1</option>
+              <option value="option2">option 2</option>
+              <option value="option1">option 3</option>
+              <option value="option1">option 4</option>
+              <option value="option1">option 5</option>
+            </select>
+        </div>  
+      </div>
+
+      <div class="checkbox">
+        <label for="published">checkbox </label>
+        <input type="checkbox" id="check-box">
+        <input type="checkbox" id="check-box">
+      </div>  
+      
+      <div class="radio-buttons">
+        <label for="radio">radio </label>
+        <input type="radio" id="radio-button">
+        <input type="radio" id="radio-button">
+      </div>    
+
+      <div class="submit-buttons">
+        <label for="button">buttons </label>
+        <input type="submit" value="submit">
+        <input type="submit" value="submit">
+      </div>
     </form>
-    <!-- DONE: Set up a form to accept user input for a new blog . Remember that we need:
-       1. Article title
-       2. Article body
-       3. Article author
-       4. Author's URL
-       5. Article category
-       6. Some way to know if this article is a draft or is published -->
+ 
   </section>
 
 

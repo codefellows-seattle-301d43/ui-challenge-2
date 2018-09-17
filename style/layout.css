@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.text-input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  padding: 5px;
+}
+
+.text1 .text2 {
+  padding: 50px;
+  width: 80%;
+}
+
+#title, #text-input-validation-err, #select-box, #select-box-open {
+  width: 90%;
+}
+
+.select-box {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.selectbox1 .selectbox2 {
+  padding :50px;
+}
+
+.checkbox {
+  margin: 20px;
+}
+
+input[type="checkbox"]{
+  width: 30px; 
+  height: 30px; 
+}
+
+.radio-buttons {
+  margin: 20px;
+}
+
+input[type="radio"]{
+  width: 30px; 
+  height: 30px; 
+}
+
+
+.submit-buttons {
+  margin: 20px;
+}
