@@ -41,9 +41,22 @@ input {
   margin: 50px 30px;
 }
 
-input[type="checkbox"]{
-  width: 30px; 
-  height: 30px; 
+input[type=checkbox], input[type=radio] {
+  /* width: 30px; 
+  height: 30px;  */
+  -webkit-appearance: none;
+}
+
+.check-box1 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -158px -239px;
+  width: 161px;
+  height: 160px;
+}
+
+.check-box2 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -381px -239px;
+  width: 161px;
+  height: 160px;
 }
 
 .radio-buttons {
@@ -54,6 +67,19 @@ input[type="radio"]{
   width: 30px; 
   height: 30px; 
 }
+
+#radio-button1 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+#radio-button2 {
+  background: url('../sprites/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
+
 
 
 .submit-buttons {
