@@ -68,6 +68,11 @@ input[type="radio"]{
   height: 30px; 
 }
 
+//fix this
+input[type=checkbox]:checked + label {
+  display: toggle;
+} 
+
 #radio-button1 {
   background: url('../sprites/form-elements-sprite.png') no-repeat -582px -242px;
 	width: 167px;
